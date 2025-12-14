@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:text="REGISTER !"
+        android:textColor="@color/bluish"
+        android:textSize="25sp"
+       android:fontFamily="sans-serif-medium"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        app:boxStrokeColor="@color/blue"
+        app:startIconDrawable="@drawable/outline_contacts_product_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter unique username"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="15dp"
+        app:boxStrokeColor="@color/blue"
+        app:startIconDrawable="@drawable/outline_attach_email_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Enter your mail address"
+
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/blue"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+
+        app:startIconDrawable="@drawable/outline_lock_24"
+        app:endIconMode="password_toggle"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Type your password"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        app:startIconDrawable="@drawable/outline_lock_24"
+        app:endIconMode="password_toggle"
+
+        app:boxStrokeColor="@color/blue"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Retype your password"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="I agree to all the Terms &amp; Conditions"
+        android:textColor="@color/darkPurple"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="SIGN UP"
+        android:textColor="@color/darkPurple"
+        android:textSize="20dp"
+        android:backgroundTint="@color/bluish"/>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Already have an account? Sign In"
+        android:textColor="@color/darkPurple"
+        android:textSize="16sp"/>
+</LinearLayout>

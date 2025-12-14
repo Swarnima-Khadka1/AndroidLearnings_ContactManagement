@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791880968814",
+    "project_id": "swarnima-contact",
+    "storage_bucket": "swarnima-contact.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791880968814:android:1c018a2bfcaf09f503147f",
+        "android_client_info": {
+          "package_name": "com.example.contactmanagerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjmVFOgBUi4kHRVkjEDhaee_uaeOUHS8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
