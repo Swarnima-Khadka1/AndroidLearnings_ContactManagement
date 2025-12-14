@@ -56,7 +56,7 @@ class ContactActivity : AppCompatActivity() {
                     dialog.setCancelable(false)
                     dialog.show()
 
-                val btnOk= dialog.findViewById<Button>(R.id.btnAdd)
+                val btnOk= dialog.findViewById<Button>(R.id.btnOk)
                 btnOk.setOnClickListener {
                  Toast.makeText(this, "Contact Added Successfully", Toast.LENGTH_SHORT).show()
                     dialog.dismiss()
